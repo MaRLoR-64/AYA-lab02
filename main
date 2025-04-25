@@ -1,0 +1,9 @@
+#include "String.hpp"
+
+int main(){
+    String str1{"4123sdsds"};
+    String str12{"432sd"};
+    str1.swap(str12);
+    std::cout << str1<< '\t'<< str12 << std::endl;
+    return 0;
+}
